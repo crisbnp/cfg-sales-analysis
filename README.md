@@ -40,6 +40,6 @@ Future features of dashboard that can be added:
 ---
 
 Personally I have learnt so much through this project:
-- Technical aspect of problem solving in Python.
+- Technical aspect of problem solving in Python
 - Teamwork
 - Technical communication
