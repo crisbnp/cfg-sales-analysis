@@ -46,14 +46,16 @@ def sales_metrics():
             lowest_month = each['month'].upper()
 
 
-    return highest_month, highest_sales_val, lowest_sales_val, lowest_month, total_sales, average_yearly, sales
+    # monthly changes in %
+    df = pd.read_csv('sales.csv')
+    monthly_percentage_change = df['sales'].pct_change() * 100
 
 
-highest_month, highest_sales_val, lowest_sales_val, lowest_month, total_sales, average_yearly, sales = sales_metrics()
+    return highest_month, highest_sales_val, lowest_sales_val, lowest_month, total_sales, average_yearly, sales, monthly_percentage_change
 
-# monthly changes in %
 
-df = pd.read_csv('sales.csv')
-monthly_percentage_change = df['sales'].pct_change() * 100
+highest_month, highest_sales_val, lowest_sales_val, lowest_month, total_sales, average_yearly, sales, monthly_percentage_change = sales_metrics()
+
+
 
 
