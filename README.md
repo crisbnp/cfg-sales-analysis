@@ -13,10 +13,11 @@ This was a group project that I worked together with my team mate, Jade.
 3. Output the total sales across all months
 
 ---
+
 🐍 To run the app:
-\
-Please go to index.py and run the Dashboard app. 
-main.py file contains code that read csv data and logic for sales metrics analysis.
+
+- Please go to index.py and run the Dashboard app. 
+- main.py file contains code that read csv data and logic for sales metrics analysis.
 ---
 🎯 Our approach:
 - Using Trello board to break down the project. Working with Kanban
