@@ -28,9 +28,10 @@ This was a group project that I worked together with my team mate, Jade.
   - Visualising data with charts 
   - Using Flask microframework to output the summary of results and chart as a dashboard
     
-📝 Things that could be improved:
+📝 Things that could be improved or I want to work on:
 - Refactoring of code. Perhaps separation of concerns for sales_metrics function that return multiple variables
 - Working out how to run chart_viz as it saves the chart file when Flask app is running, rather than running it separately
+- Deploy the dashboard (Heroku or AWS -- To be researched)
 
 🚀 Future features of dashboard that can be added:
 - More charts to show how the business is effectively trading ie: 
