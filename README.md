@@ -18,6 +18,10 @@ This was a group project that I worked together with my team mate, Jade.
 
 - Please go to index.py and run the Dashboard app. 
 - main.py file contains code that read csv data and logic for sales metrics analysis.
+
+This is what the dashboard app should look like on Desktop:
+
+![](/dashboard-screenshot.png)
 ---
 🎯 Our approach:
 - Using Trello board to break down the project. Working with Kanban
